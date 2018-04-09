@@ -7,6 +7,7 @@ public class Institution {
     ArrayList<Course> theCourses;
 
     public Institution() {
+        theCourses = new ArrayList<>();
     }
 
     public Institution(String name) {
